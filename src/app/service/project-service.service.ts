@@ -14,4 +14,9 @@ export class ProjectServiceService {
     getAllProject = () => {
         return this.http.get(API_URL);
     }
+
+    getProject = (id: string) => {
+        return this.http.get(`${API_URL}/${id}`);
+    }
+
 }

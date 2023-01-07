@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
     presentation_project: string= "Voici une liste de mes projets";
+    projectlists: any;
 }

@@ -16,6 +16,9 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {HttpClient} from "@angular/common/http";
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import {MatCardModule} from "@angular/material/card";
+import {MatListModule} from "@angular/material/list";
 
 
 @NgModule({
@@ -27,7 +30,8 @@ import {HttpClient} from "@angular/common/http";
         SkillsComponent,
         ProjectsComponent,
         ContactComponent,
-        FooterComponent
+        FooterComponent,
+        ProjectCardComponent
     ],
     imports: [
         BrowserModule,
@@ -37,6 +41,8 @@ import {HttpClient} from "@angular/common/http";
         MatButtonModule,
         MatIconModule,
         MatMenuModule,
+        MatCardModule,
+        MatListModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

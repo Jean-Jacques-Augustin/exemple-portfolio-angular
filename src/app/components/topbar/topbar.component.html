@@ -1,0 +1,12 @@
+<mat-toolbar>
+    <mat-toolbar-row class="navigation">
+        <span>My App</span>
+        <span  class="navlinks">
+<!--            liste des navlinks-->
+            <ul *ngFor="let routerLink of routesList" >
+                <li><a [routerLink]="routerLink.path">{{routerLink.title}}</a></li>
+            </ul>
+        </span>
+    </mat-toolbar-row>
+</mat-toolbar>
+

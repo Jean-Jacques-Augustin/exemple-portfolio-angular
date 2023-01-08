@@ -3,6 +3,12 @@ import {HttpClient} from "@angular/common/http";
 
 const API_URL = "https://api.github.com/users/Jean-Jacques-Augustin/repos";
 
+
+/**
+ * This is a very good example of a service
+ */
+
+
 @Injectable({
     providedIn: 'root'
 })

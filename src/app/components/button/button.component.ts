@@ -13,8 +13,6 @@ export class ButtonComponent {
     console.log("click");
   }
 
-
-
   constructor() { }
 
 }
